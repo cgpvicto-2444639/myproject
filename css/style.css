@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'CaveatBrush';
+    src: url(fonts/CaveatBrush-Regular.ttf);
+    font-weight: lighter;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'CaveatBrush';
+    overflow: hidden;
+    background-image: radial-gradient(circle, #c93c8b, #d05da1, #d779b6, #dd94c9, #e4adda, #e1afda, #ddb0d9, #dab2d8, #cb9dc8, #bd88b7, #af74a7, #a15f97);
+}
+
+.pictures{
+    text-align: center;
+}
+
+.buttons{
+    padding-top: 15px;
+}
+
+.divider{
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+h3{
+    padding-top: 10px;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    opacity: 60%;
+}
+
+.button{
+    font-family: 'CaveatBrush';
+    height: 45px;
+    width: 180px;
+    border-radius: 80px;
+    border: none;
+    box-shadow: 5px 5px 4px #dd94c9;    
+    background-color: #EFF2EF;
+}
+
+#yes-button:hover{
+    background-color: #f761b6;
+    color: white;
+    transform: scale(1.1);
+}
+
+#no-button:hover{
+    background-color:#112342;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* class for javascript */
+.hidden{
+    display: none;
+}
+
+.active{
+    display: block;
+}
